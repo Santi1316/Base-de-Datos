@@ -1,4 +1,4 @@
-# prueba-tecnica-sql
+# Prueba Técnica Topaz
 Scripts SQL Server - Creación de tablas, consultas y procedimientos para la prueba técnica
 
 Este repositorio contiene la solución de la prueba técnica enfocada en la base de datos, incluyendo:
@@ -14,24 +14,24 @@ Se organiza para demostrar buenas prácticas en T-SQL y manejo de datos.
 Estructura del repositorio
 /prueba-tecnica-db
 │
-├── 01_ddl.sql                 # Creación de tablas y relaciones
-├── 02_data.sql                # Inserción de datos de prueba
-├── 03_consultas.sql           # Consultas de la prueba, updates, deletes, funciones y stored procedures
+├── CONSULTAS.sql   # Consultas de la prueba, updates, deletes, funciones y stored procedures
+├── DDL.sql         # Creación de tablas y relaciones  
+├── DML.sql         # Inserción de datos de prueba
 └── README.md                  # Este archivo
 
 Cómo ejecutar los scripts SQL
 
 Abrir SQL Server Management Studio (SSMS).
 
-Crear una nueva base de datos (por ejemplo, ClientesDB).
+Crear una nueva base de datos (por ejemplo, Cliente).
 
 Ejecutar los scripts en el siguiente orden:
 
-01_ddl.sql → Crea las tablas y relaciones.
+DDL.sql → Crea las tablas y relaciones.
 
-02_data.sql → Inserta los datos de prueba.
+DML.sql → Inserta los datos de prueba.
 
-03_consultas.sql → Contiene las consultas, actualizaciones, eliminaciones, funciones y procedimientos.
+CONSULTAS.sql → Contiene las consultas, actualizaciones, eliminaciones, funciones y procedimientos.
 
 Verificar los datos con:
 
@@ -42,11 +42,11 @@ SELECT * FROM EMPLEADOS;
 
 Contenido de los scripts
 
-01_ddl.sql → Contiene los CREATE TABLE y CREATE INDEX.
+DDL.sql → Contiene los CREATE TABLE y CREATE INDEX.
 
-02_data.sql → Contiene los INSERT INTO para poblar las tablas.
+DML.sql → Contiene los INSERT INTO para poblar las tablas.
 
-03_consultas.sql → Contiene:
+CONSULTAS.sql → Contiene:
 
 Consultas de clientes con créditos vigentes.
 
